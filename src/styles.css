@@ -1,0 +1,61 @@
+body{
+
+    min-height: 100vh;
+    margin: 0;
+}
+.photo-card img{
+    width: 350px;
+    height: 220px;
+}
+
+.gallery{
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.gallery li{
+    background-color: darkgrey;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+}
+.stats{
+    display: flex;
+    justify-content: space-around;
+}
+.stats-item{
+    display: flex;
+    align-items: center;
+}
+.load-more__btn{
+    margin: 0 auto;
+    color: white;
+    background-color: teal;
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    display:flex;
+    justify-content:center;
+    cursor: pointer;
+}
+.load-more__btn.is-hidden{
+    display: none;
+}
+.search-form{
+    margin-top: 50px;
+    display:flex;
+    justify-content:center;
+}
+
+.search-form input{
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.js-photo{
+    cursor: pointer;
+}
